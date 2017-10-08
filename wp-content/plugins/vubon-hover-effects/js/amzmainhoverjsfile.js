@@ -56,6 +56,10 @@ $(document).ready(function(){
 	});
 	
 	setTimeout("calculate_margin();", 100);
+
+    $('a[href="#"]').click(function(e) {
+        e.preventDefault();
+    });
 	
 });
 

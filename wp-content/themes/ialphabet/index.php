@@ -29,6 +29,14 @@ get_header(); ?>
 				<b>Northeast High School</b> students exploring their immigrant experiences, with a series of free participatory events from September through December 2017 in Philadelphia.
 				</p>	
 			</div>
+
+			<div class="row" style="border-top:1px solid #ccc;">
+			<br>
+				<h4>View Alphabet</h4>
+				<a href="http://www.albustanseeds.org/ialphabet/alphabet//">
+				<img src="http://www.albustanseeds.org/ialphabet/wp-content/uploads/2017/10/alphabet-static-2.png" alt="iAlphabet" /></a>
+			</div>
+			<br>
 			
 			<div class="row" style="border-top:1px solid #ccc;">
 			<div class="col-lg-6">
@@ -79,11 +87,8 @@ get_header(); ?>
 			
 			
 			
-  	  	  <div style="padding-bottom:20px;">
-			
-				  
-			<a href="<?php echo get_permalink(); ?>" class="info"><h4 style="font-weight:bold; color:#DD1E27;"><?php the_title(); ?></h4></a>
-			
+  	  	  <div style="padding-bottom:20px;">  
+			<a href="<?php echo get_permalink(); ?>" class="info"><h4 style="font-weight:bold; color:#DD1E27;"><?php the_title(); ?></h4></a>			
 			<h6 style="color:#aaa; font-weight:bold;"><?php echo get_post_meta($post->ID, "Location", true); ?></h6>
   	  	  </div> 
   
@@ -93,16 +98,15 @@ get_header(); ?>
 			endif;
 			?>
 			</div>
+	  	  <h2>Instagram #iAlphabet</h2>
+  	  	  <div>
+  	  	  	<?php echo do_shortcode("[grace id='1']"); ?>
+  	  	  	<br>
+  	  	  </div>
 
 			</div>	
 			
 		</div><!-- .container -->
-
-
-
-
-
-
 
 
 

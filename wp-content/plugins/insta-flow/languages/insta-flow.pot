@@ -1,0 +1,214 @@
+# Copyright (C) 2017 Looks Awesome
+# This file is distributed under the same license as the Grace Lite: Instagram Feed Gallery package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Grace Lite: Instagram Feed Gallery 1.0.4\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/insta-flow\n"
+"POT-Creation-Date: 2017-09-11 16:08:06+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Team Name <team@example.com>\n"
+"X-Generator: grunt-wp-i18n 0.4.9\n"
+
+#: flow-flow/includes/LAAdminBase.php:80 includes/FFIAdmin.php:153
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/FFI.php:28
+msgid "Grace"
+msgstr ""
+
+#: includes/FFI.php:29
+msgid "Instagram Feed"
+msgstr ""
+
+#: includes/FFI.php:32
+msgid "Social"
+msgstr ""
+
+#: includes/FFI.php:38
+msgid "Stream"
+msgstr ""
+
+#: includes/FFI.php:42
+msgid "Choose stream to display"
+msgstr ""
+
+#: includes/FFIActivator.php:147
+msgid "Technical problems / hard to use"
+msgstr ""
+
+#: includes/FFIActivator.php:151
+msgid "Free version is limited"
+msgstr ""
+
+#: includes/FFIActivator.php:155
+msgid "Premium is expensive"
+msgstr ""
+
+#: includes/FFIActivator.php:159
+msgid "Upgrading to paid version"
+msgstr ""
+
+#: includes/FFIActivator.php:163
+msgid "Not what I need"
+msgstr ""
+
+#: includes/FFIWPWidget.php:60
+msgid "Title:"
+msgstr ""
+
+#: includes/FFIWPWidget.php:64
+msgid "Stream:"
+msgstr ""
+
+#: includes/display_deactivation_popup.php:8
+msgid ""
+"Please kindly let us know why you are deactivating. Your answer will help "
+"us to serve you better"
+msgstr ""
+
+#: includes/display_deactivation_popup.php:23
+msgid "Deactivate"
+msgstr ""
+
+#: includes/display_deactivation_popup.php:26
+msgid "Submit and deactivate"
+msgstr ""
+
+#: includes/display_deactivation_popup.php:28
+msgid "Cancel"
+msgstr ""
+
+#: views/public.php:26
+msgid "Show All"
+msgstr ""
+
+#: views/public.php:27
+msgid "Search"
+msgstr ""
+
+#: views/public.php:28
+msgid "Expand"
+msgstr ""
+
+#: views/public.php:29
+msgid "Collapse"
+msgstr ""
+
+#: views/public.php:30
+msgid "Posted on"
+msgstr ""
+
+#: views/public.php:31
+msgid "Show more"
+msgstr ""
+
+#: views/public.php:32
+msgid "Followers"
+msgstr ""
+
+#: views/public.php:33
+msgid "Following"
+msgstr ""
+
+#: views/public.php:34
+msgid "Posts"
+msgstr ""
+
+#: views/public.php:37
+msgid "Yesterday"
+msgstr ""
+
+#: views/public.php:38
+msgid "s"
+msgstr ""
+
+#: views/public.php:39
+msgid "m"
+msgstr ""
+
+#: views/public.php:40
+msgid "h"
+msgstr ""
+
+#: views/public.php:41
+msgid "ago"
+msgstr ""
+
+#: views/public.php:43
+msgid "Jan"
+msgstr ""
+
+#: views/public.php:43
+msgid "Feb"
+msgstr ""
+
+#: views/public.php:43
+msgid "March"
+msgstr ""
+
+#: views/public.php:44
+msgid "April"
+msgstr ""
+
+#: views/public.php:44
+msgid "May"
+msgstr ""
+
+#: views/public.php:44
+msgid "June"
+msgstr ""
+
+#: views/public.php:45
+msgid "July"
+msgstr ""
+
+#: views/public.php:45
+msgid "Aug"
+msgstr ""
+
+#: views/public.php:45
+msgid "Sept"
+msgstr ""
+
+#: views/public.php:46
+msgid "Oct"
+msgstr ""
+
+#: views/public.php:46
+msgid "Nov"
+msgstr ""
+
+#: views/public.php:46
+msgid "Dec"
+msgstr ""
+
+#: views/public.php:49
+msgid "Navigate with arrow keys"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Grace Lite: Instagram Feed Gallery"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://social-streams.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Create graceful galleries of Instagram posts on your WordPress site. "
+"Masonry and carousel layouts. Lite version"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Looks Awesome"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "looks-awesome.com"
+msgstr ""

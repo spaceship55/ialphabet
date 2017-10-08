@@ -24,9 +24,10 @@
 	float: left;
 	overflow: hidden;
 	margin: 10px 1%;
-	min-width: 320px;
-	max-width: 480px;
-	height: 360px;
+	/*min-width: 320px;
+	max-width: 480px;*/
+	/*height: 360px;*/
+	height: 100%;
 	width: 48%;
 	background: #3085a3;
 	text-align: center;
@@ -44,8 +45,8 @@
 .grid vubon_figure vubon_figcaption {
 	padding: 2em;
 	color: #fff;
-	text-transform: uppercase;
-	font-size: 1.25em;
+	/*text-transform: uppercase;*/
+	font-size: 1.5em;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
@@ -62,6 +63,7 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
+	overflow: scroll;
 }
 
 /* Anchor will cover the whole item by default */
@@ -72,9 +74,11 @@
 	white-space: nowrap;
 	font-size: 0;
 	opacity: 0;
+	display: none;
 }
 
 .grid vubon_figure h2 {
+	display: none; 
 	word-spacing: 0.1em;
 	font-weight: normal;
 	font-size: 22px;
@@ -646,7 +650,7 @@ vubon_figure.effect-oscar vubon_figcaption::before {
 	right: 30px;
 	bottom: 30px;
 	left: 30px;
-	border: 1px solid #fff;
+	/*border: 1px solid #fff;*/
 	content: '';
 }
 
@@ -677,6 +681,8 @@ vubon_figure.effect-oscar:hover p {
 	opacity: 1;
 	-webkit-transform: scale(1);
 	transform: scale(1);
+	margin-top:-5px;
+    letter-spacing: 0px;
 }
 
 vubon_figure.effect-oscar:hover vubon_figcaption {
@@ -1164,3 +1170,5 @@ vubon_figure.effect-chico:hover p {
 		width: 100%;
 	}
 }
+
+
