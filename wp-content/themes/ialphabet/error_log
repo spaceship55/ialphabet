@@ -1,0 +1,2 @@
+[29-Aug-2017 09:18:13 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/albustan/public_html/ialphabet/wp-content/themes/ialphabet/x_index.php on line 15
+[29-Aug-2017 09:18:54 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/albustan/public_html/ialphabet/wp-content/themes/ialphabet/index.php on line 15

@@ -1,0 +1,44 @@
+/*
+Accordion For Wordpress Admin CSS
+*/
+
+.awfp-profile-pic > img {
+    height: 100px;
+    margin-top: 15px;
+    width: 100px;
+}
+
+.awfp-profile-pic {
+    float: left;
+    width: 8%;
+}
+
+.afwp-content li {
+    float: left;
+}
+
+.afwp-content a {
+    background: #0085ba none repeat scroll 0 0;
+    border-left: 4px solid #000;
+    color: #fff;
+    font-size: 13px;
+    margin: 4px;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.afwp-content a:hover {
+    background: #008ec2 none repeat scroll 0 0;
+}
+
+#afwp-wrap {
+    height: 130px;
+}
+
+.afwp-content > p {
+    width: 547px;
+    font-size: 14px;
+}
+
+

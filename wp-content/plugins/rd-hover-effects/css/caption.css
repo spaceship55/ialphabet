@@ -1,0 +1,3270 @@
+/*Caption Gird Style*/
+.grid {
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+}
+
+.grid figure {
+    margin: 0 0 15px;
+    position: relative;
+}
+
+.grid figure img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+}
+
+.caption-fonl {
+    height: 100%;
+}
+
+.caption-fonl > img {
+    border-radius: 0;
+}
+
+.grid figcaption {
+    background: #2c3f52 none repeat scroll 0 0;
+    color: #ed4e6e;
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 555;
+}
+
+.grid figcaption h3 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.grid figcaption span:before {
+    content: 'by ';
+}
+
+.grid figcaption a {
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 2px;
+    display: inline-block;
+    background: #ed4e6e;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Caption Style 1 */
+.cs-style-1 figcaption {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    text-align: center;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+    -moz-transition: -moz-transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.cs-style-1 figure:hover figcaption,
+.cs-style-1 figure.cs-hover figcaption {
+    opacity: 1;
+    -webkit-transform: translate(15px, 15px);
+    -moz-transform: translate(15px, 15px);
+    -ms-transform: translate(15px, 15px);
+    transform: translate(15px, 15px);
+}
+
+.cs-style-1 figcaption h3 {
+    margin-top: 70px;
+}
+
+.cs-style-1 figcaption span {
+    display: block;
+}
+
+.cs-style-1 figcaption a {
+    margin-top: 30px;
+}
+
+/* Caption Style 3 */
+.cs-style-3 figure {
+    overflow: hidden;
+}
+
+.cs-style-3 figure img {
+    -webkit-transition: -webkit-transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    transition: transform 0.4s;
+}
+
+.no-touch .cs-style-3 figure:hover img,
+.cs-style-3 figure.cs-hover img {
+    -webkit-transform: translateY(-50px);
+    -moz-transform: translateY(-50px);
+    -ms-transform: translateY(-50px);
+    transform: translateY(-50px);
+}
+
+.cs-style-3 h2 {
+    margin-left: -159px !important;
+}
+
+.cs-style-3 p {
+    margin-left: -159px !important;
+}
+
+.cs-style-3 figcaption {
+    height: 100px;
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+    transition: transform 0.4s, opacity 0.1s 0.3s;
+}
+
+.no-touch .cs-style-3 figure:hover figcaption,
+.cs-style-3 figure.cs-hover figcaption {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s;
+    transition: transform 0.4s, opacity 0.1s;
+}
+
+.cs-style-3 figcaption a {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+/* Caption Style 4 */
+.cs-style-4 li {
+    -webkit-perspective: 1700px;
+    -moz-perspective: 1700px;
+    perspective: 1700px;
+    -webkit-perspective-origin: 0 50%;
+    -moz-perspective-origin: 0 50%;
+    perspective-origin: 0 50%;
+}
+
+.cs-style-4 figure {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.cs-style-4 figure > div {
+    overflow: hidden;
+}
+
+.cs-style-4 figure img {
+    -webkit-transition: -webkit-transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    transition: transform 0.4s;
+}
+
+.no-touch .cs-style-4 figure:hover img,
+.cs-style-4 figure.cs-hover img {
+    -webkit-transform: translateX(25%);
+    -moz-transform: translateX(25%);
+    -ms-transform: translateX(25%);
+    transform: translateX(25%);
+}
+
+.cs-style-4 figcaption {
+    height: 100%;
+    width: 50%;
+    opacity: 0;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: rotateY(-90deg);
+    -moz-transform: rotateY(-90deg);
+    transform: rotateY(-90deg);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+    transition: transform 0.4s, opacity 0.1s 0.3s;
+}
+
+.no-touch .cs-style-4 figure:hover figcaption,
+.cs-style-4 figure.cs-hover figcaption {
+    opacity: 1;
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s;
+    transition: transform 0.4s, opacity 0.1s;
+}
+
+.cs-style-4 figcaption a {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+/* Caption Style 5 */
+.cs-style-5 figure img {
+    z-index: 10;
+    -webkit-transition: -webkit-transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    transition: transform 0.4s;
+}
+
+.no-touch .cs-style-5 figure:hover img,
+.cs-style-5 figure.cs-hover img {
+    -webkit-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    transform: scale(0.4);
+}
+
+.cs-style-5 figcaption {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.4s;
+    transition: transform 0.4s, opacity 0.4s;
+}
+
+.no-touch .cs-style-5 figure:hover figcaption,
+.cs-style-5 figure.cs-hover figcaption {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
+
+.cs-style-5 figure a {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+/* Caption Style 7 */
+.cs-style-7 li:first-child {
+    z-index: 6;
+}
+
+.cs-style-7 li:nth-child(2) {
+    z-index: 5;
+}
+
+.cs-style-7 li:nth-child(3) {
+    z-index: 4;
+}
+
+.cs-style-7 li:nth-child(4) {
+    z-index: 3;
+}
+
+.cs-style-7 li:nth-child(5) {
+    z-index: 2;
+}
+
+.cs-style-7 li:nth-child(6) {
+    z-index: 1;
+}
+
+.cs-style-7 figure img {
+    z-index: 10;
+}
+
+.cs-style-7 figcaption {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    pointer-events: none;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: opacity 0.3s, height 0.3s, box-shadow 0.3s;
+    -moz-transition: opacity 0.3s, height 0.3s, box-shadow 0.3s;
+    transition: opacity 0.3s, height 0.3s, box-shadow 0.3s;
+    box-shadow: 0 0 0 0px #2c3f52;
+}
+
+.no-touch .cs-style-7 figure:hover figcaption,
+.cs-style-7 figure.cs-hover figcaption {
+    pointer-events: auto;
+    opacity: 1;
+    box-shadow: 0 0 0 10px #2c3f52;
+}
+
+.cs-style-7 figcaption h3 {
+    margin-top: 86%;
+}
+
+.cs-style-7 figcaption h3,
+.cs-style-7 figcaption span,
+.cs-style-7 figcaption a {
+    opacity: 0;
+    -webkit-transition: opacity 0s;
+    -moz-transition: opacity 0s;
+    transition: opacity 0s;
+}
+
+.cs-style-7 figcaption a {
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+}
+
+.no-touch .cs-style-7 figure:hover figcaption h3,
+.no-touch .cs-style-7 figure:hover figcaption span,
+.no-touch .cs-style-7 figure:hover figcaption a,
+.cs-style-7 figure.cs-hover figcaption h3,
+.cs-style-7 figure.cs-hover figcaption span,
+.cs-style-7 figure.cs-hover figcaption a {
+    -webkit-transition: opacity 0.3s 0.2s;
+    -moz-transition: opacity 0.3s 0.2s;
+    transition: opacity 0.3s 0.2s;
+    opacity: 1;
+}
+
+@media screen and (max-width: 31.5em) {
+    .grid {
+        padding: 10px 10px 100px 10px;
+    }
+
+    .grid li {
+        width: 100%;
+        min-width: 300px;
+    }
+}
+
+.container > header h1 {
+    font-size: 2.625em;
+    line-height: 1.3;
+    margin: 0;
+    font-weight: 300;
+}
+
+/* To Navigation Style */
+
+.codrops-top {
+    background: #fff;
+    background: rgba(255, 255, 255, 0.6);
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 0.69em;
+    line-height: 2.2;
+}
+
+.codrops-top a {
+    padding: 0 1em;
+    letter-spacing: 0.1em;
+    color: #888;
+    display: inline-block;
+}
+
+.codrops-top a:hover {
+    background: rgba(255, 255, 255, 0.95);
+    color: #333;
+}
+
+.codrops-top span.right {
+    float: right;
+}
+
+.codrops-top span.right a {
+    float: left;
+    display: block;
+}
+
+.codrops-icon:before {
+    font-family: 'codropsicons';
+    margin: 0 4px;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+.codrops-icon-drop:before {
+    content: "\e001";
+}
+
+.codrops-icon-prev:before {
+    content: "\e004";
+}
+
+.codrops-icon-archive:before {
+    content: "\e002";
+}
+
+.codrops-icon-next:before {
+    content: "\e000";
+}
+
+.codrops-icon-about:before {
+    content: "\e003";
+}
+
+/* Demo Buttons Style */
+
+.codrops-demos {
+    padding-top: 1em;
+    font-size: 0.9em;
+}
+
+.codrops-demos a {
+    display: inline-block;
+    margin: 0.5em;
+    padding: 0.7em 1.1em;
+    border: 3px solid #b3b9bf;
+    color: #b3b9bf;
+    font-weight: 700;
+}
+
+.codrops-demos a:hover,
+.codrops-demos a.current-demo,
+.codrops-demos a.current-demo:hover {
+    border-color: #2c3f52;
+    color: #2c3f52;
+}
+
+@media screen and (max-width: 25em) {
+    .codrops-icon span {
+        display: none;
+    }
+}
+
+/* Caption Code Starting */
+
+#butt_new {
+    margin: 20px;
+    float: right;
+}
+
+.block {
+    padding-left: 15px;
+    text-align: left;
+}
+
+#prim {
+    height: 100%;
+}
+
+#prim img {
+    border-radius: 0;
+    height: 100%;
+}
+
+#butt_new_an {
+    margin: 25px;
+}
+
+.zindex {
+    z-index: 1;
+}
+
+#overflw {
+    overflow: hidden;
+}
+
+.rdcaptoin01 {
+    width: 100%;
+    position: relative;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    height: 100%;
+}
+
+.rdcaptoin01 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    height: 100%;
+}
+
+.rdcaptoin01 .rdcaptoin {
+    position: absolute;
+    background: #333;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -10%;
+    opacity: 0;
+    z-index: 1;
+    overflow: auto;
+    visibility: hidden;
+    -webkit-transition: all 0.3s 0.15s;
+    -moz-transition: all 0.3s 0.15s;
+    -o-transition: all 0.3s 0.15s;
+    transition: all 0.3s 0.15s;
+}
+
+.rdcaptoin01 .rdcaptoin h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.rdcaptoin01 .rdcaptoin p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #9d9c9c;
+    text-indent: 10px;
+}
+
+.item .rdcaptoin01 .rdcaptoin a {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    float: right;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-decoration: none;
+}
+
+.rdcaptoin01 .rdcaptoin a:hover {
+    border: 1px solid #adadad;
+}
+
+.rdcaptoin01:hover img {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+}
+
+.rdcaptoin01:hover .rdcaptoin {
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.rdcaptoin02 {
+    width: 100%;
+    position: relative;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    height: 100%;
+}
+
+.rdcaptoin02 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    height: 100%;
+}
+
+.rdcaptoin02 .rdcaptoin {
+    position: absolute;
+    background: #333;
+    width: 100%;
+    height: 100%;
+    top: -70%;
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+    overflow: auto;
+    visibility: hidden;
+    -webkit-transition: all 0.3s 0.15s;
+    -moz-transition: all 0.3s 0.15s;
+    -o-transition: all 0.3s 0.15s;
+    transition: all 0.3s 0.15s;
+}
+
+.rdcaptoin02 .rdcaptoin h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.rdcaptoin02 .rdcaptoin p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #9d9c9c;
+    text-indent: 10px;
+}
+
+.rdcaptoin02 .rdcaptoin a {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #333;
+    float: right;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rdcaptoin02 .rdcaptoin a:hover {
+    border: 1px solid #adadad;
+}
+
+.rdcaptoin02:hover img {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+}
+
+.rdcaptoin02:hover .rdcaptoin {
+    top: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.rdcaptoin03 {
+    width: 100%;
+    position: relative;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.rdcaptoin03 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin03 .rdcaptoin {
+    position: absolute;
+    background: #333;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 70%;
+    opacity: 0;
+    z-index: 1;
+    overflow: auto;
+    visibility: hidden;
+    -webkit-transition: all 0.3s 0.15s;
+    -moz-transition: all 0.3s 0.15s;
+    -o-transition: all 0.3s 0.15s;
+    transition: all 0.3s 0.15s;
+}
+
+.rdcaptoin03 .rdcaptoin h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.rdcaptoin03 .rdcaptoin p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #9d9c9c;
+    text-indent: 10px;
+}
+
+.rdcaptoin03 .rdcaptoin a {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #333;
+    float: right;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rdcaptoin03 .rdcaptoin a:hover {
+    border: 1px solid #adadad;
+}
+
+.rdcaptoin03:hover img {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+}
+
+.rdcaptoin03:hover .rdcaptoin {
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.rdcaptoin04 {
+    width: 100%;
+    position: relative;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.rdcaptoin04 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin04 .rdcaptoin {
+    position: absolute;
+    background: #333;
+    width: 100%;
+    height: 100%;
+    top: 70%;
+    padding: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+    overflow: auto;
+    visibility: hidden;
+    -webkit-transition: all 0.3s 0.15s;
+    -moz-transition: all 0.3s 0.15s;
+    -o-transition: all 0.3s 0.15s;
+    transition: all 0.3s 0.15s;
+}
+
+.rdcaptoin04 .rdcaptoin h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.rdcaptoin04 .rdcaptoin p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #9d9c9c;
+    text-indent: 10px;
+}
+
+.rdcaptoin04 .rdcaptoin a {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #333;
+    float: right;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rdcaptoin04 .rdcaptoin a:hover {
+    border: 1px solid #adadad;
+}
+
+.rdcaptoin04:hover img {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+}
+
+.rdcaptoin04:hover .rdcaptoin {
+    top: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.rdcaptoin05 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.rdcaptoin05 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin05 .rdcaptoin {
+    position: absolute;
+    background: #333;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    padding: 0;
+    left: -100%;
+    z-index: 1;
+    overflow: auto;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin05 .rdcaptoin h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.rdcaptoin05 .rdcaptoin p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #9d9c9c;
+    text-indent: 10px;
+}
+
+.rdcaptoin05 .rdcaptoin a {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #333;
+    float: right;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rdcaptoin05 .rdcaptoin a:hover {
+    border: 1px solid #adadad;
+}
+
+.rdcaptoin05:hover img {
+    left: 100%;
+}
+
+.rdcaptoin05:hover .rdcaptoin {
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.rdcaptoin06 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.rdcaptoin06 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin06 .rdcaptoin {
+    position: absolute;
+    background: #333;
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    padding: 0;
+    left: 0;
+    z-index: 1;
+    overflow: auto;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin06 .rdcaptoin h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.rdcaptoin06 .rdcaptoin p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #9d9c9c;
+    text-indent: 10px;
+}
+
+.rdcaptoin06 .rdcaptoin a {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #333;
+    float: right;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rdcaptoin06 .rdcaptoin a:hover {
+    border: 1px solid #adadad;
+}
+
+.rdcaptoin06:hover img {
+    top: 100%;
+}
+
+.rdcaptoin06:hover .rdcaptoin {
+    top: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.rdcaptoin07 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.rdcaptoin07 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin07 .rdcaptoin {
+    position: absolute;
+    background: #333;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    padding: 0;
+    left: 100%;
+    z-index: 1;
+    overflow: auto;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin07 .rdcaptoin h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.rdcaptoin07 .rdcaptoin p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #9d9c9c;
+    text-indent: 10px;
+}
+
+.rdcaptoin07 .rdcaptoin a {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #333;
+    float: right;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rdcaptoin07 .rdcaptoin a:hover {
+    border: 1px solid #adadad;
+}
+
+.rdcaptoin07:hover img {
+    left: -100%;
+}
+
+.rdcaptoin07:hover .rdcaptoin {
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.rdcaptoin08 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.rdcaptoin08 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin08 .rdcaptoin {
+    position: absolute;
+    background: #333;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    padding: 0;
+    left: 0;
+    z-index: 1;
+    overflow: auto;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin08 .rdcaptoin h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.rdcaptoin08 .rdcaptoin p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #9d9c9c;
+    text-indent: 10px;
+}
+
+.rdcaptoin08 .rdcaptoin a {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #333;
+    float: right;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rdcaptoin08 .rdcaptoin a:hover {
+    border: 1px solid #adadad;
+}
+
+.rdcaptoin08:hover img {
+    top: -100%;
+}
+
+.rdcaptoin08:hover .rdcaptoin {
+    top: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.rdcaptoin09 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.rdcaptoin09 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin09 .rdcaptoin {
+    position: absolute;
+    background: #333;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 0 15px;
+    visibility: hidden;
+    -webkit-transition: all 0.3s 0.15s;
+    -moz-transition: all 0.3s 0.15s;
+    -o-transition: all 0.3s 0.15s;
+    transition: all 0.3s 0.15s;
+    -webkit-transform: scale(0) rotateZ(180deg);
+    -moz-transform: scale(0) rotateZ(180deg);
+    -ms-transform: scale(0) rotateZ(180deg);
+    -o-transform: scale(0) rotateZ(180deg);
+    transform: scale(0) rotateZ(180deg);
+}
+
+.rdcaptoin09 .rdcaptoin h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.rdcaptoin09 .rdcaptoin p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #9d9c9c;
+    text-indent: 10px;
+}
+
+.rdcaptoin09 .rdcaptoin a {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #333;
+    float: right;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rdcaptoin09 .rdcaptoin a:hover {
+    border: 1px solid #adadad;
+}
+
+.rdcaptoin09:hover img {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+}
+
+.rdcaptoin09:hover .rdcaptoin {
+    visibility: visible;
+    -webkit-transform: scale(1) rotateZ(0deg);
+    -moz-transform: scale(1) rotateZ(0deg);
+    -ms-transform: scale(1) rotateZ(0deg);
+    -o-transform: scale(1) rotateZ(0deg);
+    transform: scale(1) rotateZ(0deg);
+}
+
+.rdcaptoin10 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.rdcaptoin10 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin10 .rdcaptoin {
+    background: #333;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: -100%;
+    padding: 0 15px;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-transform: scale(0.7) rotateZ(180deg);
+    -moz-transform: scale(0.7) rotateZ(180deg);
+    -ms-transform: scale(0.7) rotateZ(180deg);
+    -o-transform: scale(0.7) rotateZ(180deg);
+    transform: scale(0.7) rotateZ(180deg);
+}
+
+.rdcaptoin10 .rdcaptoin h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.rdcaptoin10 .rdcaptoin p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #9d9c9c;
+    text-indent: 10px;
+}
+
+.rdcaptoin10 .rdcaptoin a {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #333;
+    float: right;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rdcaptoin10 .rdcaptoin a:hover {
+    border: 1px solid #adadad;
+}
+
+.rdcaptoin10:hover img {
+    left: 100%;
+    -webkit-transform: scale(0.7) rotateZ(180deg);
+    -moz-transform: scale(0.7) rotateZ(180deg);
+    -ms-transform: scale(0.7) rotateZ(180deg);
+    -o-transform: scale(0.7) rotateZ(180deg);
+    transform: scale(0.7) rotateZ(180deg);
+}
+
+.rdcaptoin10:hover .rdcaptoin {
+    visibility: visible;
+    left: 0;
+    -webkit-transform: scale(1) rotateZ(0deg);
+    -moz-transform: scale(1) rotateZ(0deg);
+    -ms-transform: scale(1) rotateZ(0deg);
+    -o-transform: scale(1) rotateZ(0deg);
+    transform: scale(1) rotateZ(0deg);
+}
+
+.rdcaptoin11 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.rdcaptoin11 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin11 .rdcaptoin {
+    background: #333;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    padding: 0 15px;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin11 .rdcaptoin h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.rdcaptoin11 .rdcaptoin p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #9d9c9c;
+    text-indent: 10px;
+}
+
+.rdcaptoin11 .rdcaptoin a {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #333;
+    float: right;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rdcaptoin11 .rdcaptoin a:hover {
+    border: 1px solid #adadad;
+}
+
+.rdcaptoin11:hover img {
+    opacity: 0;
+}
+
+.rdcaptoin11:hover .rdcaptoin {
+    visibility: visible;
+    opacity: 1;
+}
+
+.rdcaptoin12 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.rdcaptoin12 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin12 .rdcaptoin {
+    background: #333;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    padding: 0 15px;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin12 .rdcaptoin h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.rdcaptoin12 .rdcaptoin p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #9d9c9c;
+    text-indent: 10px;
+}
+
+.rdcaptoin12 .rdcaptoin a {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #333;
+    float: right;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rdcaptoin12 .rdcaptoin a:hover {
+    border: 1px solid #adadad;
+}
+
+.rdcaptoin12:hover img {
+    opacity: 0;
+    -webkit-transform: scale(5);
+    -moz-transform: scale(5);
+    -ms-transform: scale(5);
+    -o-transform: scale(5);
+    transform: scale(5);
+}
+
+.rdcaptoin12:hover .rdcaptoin {
+    visibility: visible;
+    opacity: 1;
+}
+
+.rdcaptoin13 {
+    width: 100%;
+    position: relative;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.rdcaptoin13 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.rdcaptoin13 .rdcaptoin {
+    background: #333;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    padding: 0 15px;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin13 .rdcaptoin h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.rdcaptoin13 .rdcaptoin p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #9d9c9c;
+    text-indent: 10px;
+}
+
+.rdcaptoin13 .rdcaptoin a {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #333;
+    float: right;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rdcaptoin13 .rdcaptoin a:hover {
+    border: 1px solid #adadad;
+}
+
+.rdcaptoin13:hover .rdcaptoin {
+    visibility: visible;
+    opacity: 1;
+    left: 25px;
+    top: 25px;
+}
+
+.rdcaptoin14 {
+    width: 100%;
+    position: relative;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.rdcaptoin14 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.rdcaptoin14 .rdcaptoin {
+    background: #333;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    padding: 0 15px;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin14 .rdcaptoin h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.rdcaptoin14 .rdcaptoin p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #9d9c9c;
+    text-indent: 10px;
+}
+
+.rdcaptoin14 .rdcaptoin a {
+
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #333;
+    float: right;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rdcaptoin14 .rdcaptoin a:hover {
+    border: 1px solid #adadad;
+}
+
+.rdcaptoin14:hover .rdcaptoin {
+    visibility: visible;
+    opacity: 1;
+    left: -25px;
+    top: 25px;
+}
+
+.rdcaptoin15 {
+    width: 100%;
+    position: relative;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.rdcaptoin15 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.rdcaptoin15 .rdcaptoin {
+    background: #333;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    padding: 0 15px;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin15 .rdcaptoin h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.rdcaptoin15 .rdcaptoin p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #9d9c9c;
+    text-indent: 10px;
+}
+
+.rdcaptoin15 .rdcaptoin a {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #333;
+    float: right;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rdcaptoin15 .rdcaptoin a:hover {
+    border: 1px solid #adadad;
+}
+
+.rdcaptoin15:hover .rdcaptoin {
+    visibility: visible;
+    opacity: 1;
+    left: -25px;
+    top: -25px;
+}
+
+.rdcaptoin16 {
+    width: 100%;
+    position: relative;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.rdcaptoin16 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.rdcaptoin16 .rdcaptoin {
+    background: #333;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    padding: 0 15px;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin16 .rdcaptoin h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.rdcaptoin16 .rdcaptoin p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #9d9c9c;
+    text-indent: 10px;
+}
+
+.rdcaptoin16 .rdcaptoin a {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #333;
+    float: right;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rdcaptoin16 .rdcaptoin a:hover {
+    border: 1px solid #adadad;
+}
+
+.rdcaptoin16:hover .rdcaptoin {
+    visibility: visible;
+    opacity: 1;
+    left: 25px;
+    top: -25px;
+}
+
+.rdcaptoin17 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.rdcaptoin17 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin17 .rdcaptoin {
+    background: #333;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: -100%;
+    opacity: 0;
+    padding: 0 15px;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin17 .rdcaptoin h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.rdcaptoin17 .rdcaptoin p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #9d9c9c;
+    text-indent: 10px;
+}
+
+.rdcaptoin17 .rdcaptoin a {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #333;
+    float: right;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rdcaptoin17 .rdcaptoin a:hover {
+    border: 1px solid #adadad;
+}
+
+.rdcaptoin17:hover .rdcaptoin {
+    visibility: visible;
+    opacity: 1;
+    left: 0;
+}
+
+.rdcaptoin17:hover img {
+    opacity: 0;
+}
+
+.rdcaptoin18 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.rdcaptoin18 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin18 .rdcaptoin {
+    background: #333;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: -100%;
+    left: 0;
+    opacity: 0;
+    padding: 0 15px;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin18 .rdcaptoin h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.rdcaptoin18 .rdcaptoin p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #9d9c9c;
+    text-indent: 10px;
+}
+
+.rdcaptoin18 .rdcaptoin a {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #333;
+    float: right;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rdcaptoin18 .rdcaptoin a:hover {
+    border: 1px solid #adadad;
+}
+
+.rdcaptoin18:hover .rdcaptoin {
+    visibility: visible;
+    opacity: 1;
+    top: 0;
+}
+
+.rdcaptoin18:hover img {
+    opacity: 0;
+}
+
+.rdcaptoin19 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.rdcaptoin19 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin19 .rdcaptoin {
+    background: #333;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 100%;
+    opacity: 0;
+    padding: 0 15px;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin19 .rdcaptoin h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.rdcaptoin19 .rdcaptoin p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #9d9c9c;
+    text-indent: 10px;
+}
+
+.rdcaptoin19 .rdcaptoin a {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #333;
+    float: right;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rdcaptoin19 .rdcaptoin a:hover {
+    border: 1px solid #adadad;
+}
+
+.rdcaptoin19:hover .rdcaptoin {
+    visibility: visible;
+    opacity: 1;
+    left: 0;
+}
+
+.rdcaptoin19:hover img {
+    opacity: 0;
+}
+
+.rdcaptoin20 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.rdcaptoin20 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin20 .rdcaptoin {
+    background: #333;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 100%;
+    left: 0;
+    opacity: 0;
+    padding: 0 15px;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin20 .rdcaptoin h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.rdcaptoin20 .rdcaptoin p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #9d9c9c;
+    text-indent: 10px;
+}
+
+.rdcaptoin20 .rdcaptoin a {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #333;
+    float: right;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rdcaptoin20 .rdcaptoin a:hover {
+    border: 1px solid #adadad;
+}
+
+.rdcaptoin20:hover .rdcaptoin {
+    visibility: visible;
+    opacity: 1;
+    top: 0;
+}
+
+.rdcaptoin20:hover img {
+    opacity: 0;
+}
+
+.rdcaptoin21 {
+    width: 100%;
+    position: relative;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.rdcaptoin21 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin21 .rdcaptoin {
+    background: #333;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    padding: 0 15px;
+    -webkit-transform: perspective(600px) rotateY(90deg);
+    -moz-transform: perspective(600px) rotateY(90deg);
+    -ms-transform: perspective(600px) rotateY(90deg);
+    -o-transform: perspective(600px) rotateY(90deg);
+    transform: perspective(600px) rotateY(90deg);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin21 .rdcaptoin h3,
+.rdcaptoin21 .rdcaptoin p,
+.rdcaptoin21 .rdcaptoin a {
+    left: 50px;
+    opacity: 0;
+    position: relative;
+    -webkit-transition: all 0.3s 0.3s;
+    -moz-transition: all 0.3s 0.3s;
+    -o-transition: all 0.3s 0.3s;
+    transition: all 0.3s 0.3s;
+}
+
+.rdcaptoin21 .rdcaptoin h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.rdcaptoin21 .rdcaptoin p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #9d9c9c;
+    text-indent: 10px;
+}
+
+.rdcaptoin21 .rdcaptoin a {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #333;
+    float: right;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rdcaptoin21 .rdcaptoin a:hover {
+    border: 1px solid #adadad;
+}
+
+.rdcaptoin21:hover .rdcaptoin h3,
+.rdcaptoin21:hover .rdcaptoin p,
+.rdcaptoin21:hover .rdcaptoin a {
+    left: 0;
+    opacity: 1;
+}
+
+.rdcaptoin21:hover .rdcaptoin {
+    visibility: visible;
+    -webkit-transform: perspective(600px) rotateY(0deg);
+    -moz-transform: perspective(600px) rotateY(0deg);
+    -ms-transform: perspective(600px) rotateY(0deg);
+    -o-transform: perspective(600px) rotateY(0deg);
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.rdcaptoin22 {
+    width: 100%;
+    position: relative;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.rdcaptoin22 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin22 .rdcaptoin {
+    background: #333;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    padding: 0 15px;
+    -webkit-transform: perspective(600px) rotateX(-90deg);
+    -moz-transform: perspective(600px) rotateX(-90deg);
+    -ms-transform: perspective(600px) rotateX(-90deg);
+    -o-transform: perspective(600px) rotateX(-90deg);
+    transform: perspective(600px) rotateX(-90deg);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin22 .rdcaptoin h3,
+.rdcaptoin22 .rdcaptoin p,
+.rdcaptoin22 .rdcaptoin a {
+    top: 50px;
+    opacity: 0;
+    position: relative;
+    -webkit-transition: all 0.3s 0.3s;
+    -moz-transition: all 0.3s 0.3s;
+    -o-transition: all 0.3s 0.3s;
+    transition: all 0.3s 0.3s;
+}
+
+.rdcaptoin22 .rdcaptoin h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.rdcaptoin22 .rdcaptoin p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #9d9c9c;
+    text-indent: 10px;
+}
+
+.rdcaptoin22 .rdcaptoin a {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #333;
+    float: right;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rdcaptoin22 .rdcaptoin a:hover {
+    border: 1px solid #adadad;
+}
+
+.rdcaptoin22:hover .rdcaptoin h3,
+.rdcaptoin22:hover .rdcaptoin p,
+.rdcaptoin22:hover .rdcaptoin a {
+    top: 0;
+    opacity: 1;
+}
+
+.rdcaptoin22:hover .rdcaptoin {
+    visibility: visible;
+    -webkit-transform: perspective(600px) rotateX(0deg);
+    -moz-transform: perspective(600px) rotateX(0deg);
+    -ms-transform: perspective(600px) rotateX(0deg);
+    -o-transform: perspective(600px) rotateX(0deg);
+    transform: perspective(600px) rotateX(0deg);
+}
+
+.rdcaptoin23 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.rdcaptoin23 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin23 .rdcaptoin {
+    background: #333;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    padding: 0 15px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin23 .rdcaptoin h3,
+.rdcaptoin23 .rdcaptoin p,
+.rdcaptoin23 .rdcaptoin a {
+    opacity: 0;
+    position: relative;
+    -webkit-transition: all 0.3s 0.3s;
+    -moz-transition: all 0.3s 0.3s;
+    -o-transition: all 0.3s 0.3s;
+    transition: all 0.3s 0.3s;
+}
+
+.rdcaptoin23 .rdcaptoin h3 {
+    left: -100px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.rdcaptoin23 .rdcaptoin p {
+    left: 100px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #9d9c9c;
+    text-indent: 10px;
+}
+
+.rdcaptoin23 .rdcaptoin a {
+    left: 100px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #333;
+    float: right;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rdcaptoin23 .rdcaptoin a:hover {
+    border: 1px solid #adadad;
+}
+
+.rdcaptoin23:hover .rdcaptoin h3,
+.rdcaptoin23:hover .rdcaptoin p,
+.rdcaptoin23:hover .rdcaptoin a {
+    left: 0;
+    opacity: 1;
+}
+
+.rdcaptoin23:hover .rdcaptoin {
+    visibility: visible;
+    opacity: 1;
+}
+
+.rdcaptoin24 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.rdcaptoin24 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin24 .rdcaptoin {
+    background: #333;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    padding: 0 15px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin24 .rdcaptoin h3,
+.rdcaptoin24 .rdcaptoin p,
+.rdcaptoin24 .rdcaptoin a {
+    opacity: 0;
+    position: relative;
+    -webkit-transition: all 0.3s 0.3s;
+    -moz-transition: all 0.3s 0.3s;
+    -o-transition: all 0.3s 0.3s;
+    transition: all 0.3s 0.3s;
+}
+
+.rdcaptoin24 .rdcaptoin h3 {
+    top: -100px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.rdcaptoin24 .rdcaptoin p {
+    top: 100px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #9d9c9c;
+    text-indent: 10px;
+}
+
+.rdcaptoin24 .rdcaptoin a {
+    top: 100px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #333;
+    float: right;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rdcaptoin24 .rdcaptoin a:hover {
+    border: 1px solid #adadad;
+}
+
+.rdcaptoin24:hover .rdcaptoin h3,
+.rdcaptoin24:hover .rdcaptoin p,
+.rdcaptoin24:hover .rdcaptoin a {
+    top: 0;
+    opacity: 1;
+}
+
+.rdcaptoin24:hover .rdcaptoin {
+    visibility: visible;
+    opacity: 1;
+}
+
+.rdcaptoin25 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.rdcaptoin25 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin25 .rdcaptoin {
+    background: rgba(51, 51, 51, 0.5);
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin25 .rdcaptoin h3,
+.rdcaptoin25 .rdcaptoin p,
+.rdcaptoin25 .rdcaptoin a {
+    position: relative;
+    top: -100%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin25 .rdcaptoin h3 {
+    padding: 10px 15px;
+    width: 100%;
+    background: #333;
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    -webkit-transition-delay: 0.2s;
+    -moz-transition-delay: 0.2s;
+    -o-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+.rdcaptoin25 .rdcaptoin p {
+    padding: 0 15px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #fff;
+    text-indent: 10px;
+    -webkit-transition-delay: 0.1s;
+    -moz-transition-delay: 0.1s;
+    -o-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+.rdcaptoin25 .rdcaptoin a {
+    margin-right: 15px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #333;
+    float: right;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rdcaptoin25 .rdcaptoin a:hover {
+    border: 1px solid #adadad;
+}
+
+.rdcaptoin25:hover .rdcaptoin h3,
+.rdcaptoin25:hover .rdcaptoin p,
+.rdcaptoin25:hover .rdcaptoin a {
+    top: 0;
+}
+
+.rdcaptoin25:hover .rdcaptoin {
+    visibility: visible;
+    opacity: 1;
+}
+
+.rdcaptoin26 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.rdcaptoin26 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin26 .rdcaptoin {
+    background: rgba(51, 51, 51, 0.5);
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin26 .rdcaptoin h3,
+.rdcaptoin26 .rdcaptoin p,
+.rdcaptoin26 .rdcaptoin a {
+    position: relative;
+    top: 100%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin26 .rdcaptoin h3 {
+    padding: 10px 15px;
+    width: 100%;
+    background: #333;
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.rdcaptoin26 .rdcaptoin p {
+    padding: 0 15px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #fff;
+    text-indent: 10px;
+    -webkit-transition-delay: 0.1s;
+    -moz-transition-delay: 0.1s;
+    -o-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+.rdcaptoin26 .rdcaptoin a {
+    margin-right: 15px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #333;
+    float: right;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-align: center;
+    -webkit-transition-delay: 0.2s;
+    -moz-transition-delay: 0.2s;
+    -o-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+    text-decoration: none;
+}
+
+.rdcaptoin26 .rdcaptoin a:hover {
+    border: 1px solid #adadad;
+}
+
+.rdcaptoin26:hover .rdcaptoin h3,
+.rdcaptoin26:hover .rdcaptoin p,
+.rdcaptoin26:hover .rdcaptoin a {
+    top: 0;
+}
+
+.rdcaptoin26:hover .rdcaptoin {
+    visibility: visible;
+    opacity: 1;
+}
+
+.rdcaptoin27 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.rdcaptoin27 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin27 .rdcaptoin {
+    background: rgba(51, 51, 51, 0.5);
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin27 .rdcaptoin h3,
+.rdcaptoin27 .rdcaptoin p,
+.rdcaptoin27 .rdcaptoin a {
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin27 .rdcaptoin h3 {
+    padding: 10px 15px;
+    width: 100%;
+    left: -100%;
+    background: #333;
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.rdcaptoin27 .rdcaptoin p {
+    padding: 0 15px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #fff;
+    top: 30px;
+    text-indent: 10px;
+}
+
+.rdcaptoin27 .rdcaptoin a {
+    margin-right: 15px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #333;
+    top: 30px;
+    float: right;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rdcaptoin27 .rdcaptoin a:hover {
+    border: 1px solid #adadad;
+}
+
+.rdcaptoin27:hover .rdcaptoin h3 {
+    left: 0;
+}
+
+.rdcaptoin27:hover .rdcaptoin p,
+.rdcaptoin27:hover .rdcaptoin a {
+    top: 0;
+}
+
+.rdcaptoin27:hover .rdcaptoin {
+    visibility: visible;
+    opacity: 1;
+}
+
+.rdcaptoin28 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.rdcaptoin28 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin28 .rdcaptoin {
+    background: rgba(51, 51, 51, 0.5);
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin28 .rdcaptoin h3,
+.rdcaptoin28 .rdcaptoin p,
+.rdcaptoin28 .rdcaptoin a {
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin28 .rdcaptoin h3 {
+    padding: 10px 15px;
+    width: 100%;
+    left: -100%;
+    background: #333;
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.rdcaptoin28 .rdcaptoin p {
+    padding: 0 15px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #fff;
+    left: 100%;
+    text-indent: 10px;
+}
+
+.rdcaptoin28 .rdcaptoin a {
+    margin-right: 15px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #333;
+    left: 100%;
+    float: right;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rdcaptoin28 .rdcaptoin a:hover {
+    border: 1px solid #adadad;
+}
+
+.rdcaptoin28:hover .rdcaptoin p,
+.rdcaptoin28:hover .rdcaptoin a,
+.rdcaptoin28:hover .rdcaptoin h3 {
+    left: 0;
+}
+
+.rdcaptoin28:hover .rdcaptoin {
+    visibility: visible;
+    opacity: 1;
+}
+
+.rdcaptoin29 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.rdcaptoin29 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin29 .rdcaptoin {
+    background: rgba(51, 51, 51, 0.5);
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin29 .rdcaptoin h3,
+.rdcaptoin29 .rdcaptoin p,
+.rdcaptoin29 .rdcaptoin a {
+    position: relative;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin29 .rdcaptoin h3 {
+    padding: 10px 15px;
+    width: 100%;
+    background: #333;
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.rdcaptoin29 .rdcaptoin p {
+    padding: 0 15px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #fff;
+    -webkit-transition-delay: 0.1s;
+    -moz-transition-delay: 0.1s;
+    -o-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+    text-indent: 10px;
+}
+
+.rdcaptoin29 .rdcaptoin a {
+    margin-right: 15px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #333;
+    float: right;
+    -webkit-transition-delay: 0.2s;
+    -moz-transition-delay: 0.2s;
+    -o-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rdcaptoin29 .rdcaptoin a:hover {
+    background: #e6e6e6;
+    border: 1px solid #adadad;
+}
+
+.rdcaptoin29:hover .rdcaptoin p,
+.rdcaptoin29:hover .rdcaptoin a,
+.rdcaptoin29:hover .rdcaptoin h3 {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+
+.rdcaptoin29:hover .rdcaptoin {
+    visibility: visible;
+    opacity: 1;
+}
+
+.rdcaptoin30 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.rdcaptoin30 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin30 .rdcaptoin {
+    background: rgba(51, 51, 51, 0.5);
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin30 .rdcaptoin h3,
+.rdcaptoin30 .rdcaptoin p,
+.rdcaptoin30 .rdcaptoin a {
+    position: relative;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin30 .rdcaptoin h3 {
+    padding: 10px 15px;
+    width: 100%;
+    background: #333;
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.rdcaptoin30 .rdcaptoin p {
+    padding: 0 15px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #fff;
+    -webkit-transition-delay: 0.1s;
+    -moz-transition-delay: 0.1s;
+    -o-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+    text-indent: 10px;
+}
+
+.rdcaptoin30 .rdcaptoin a {
+    margin-right: 15px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #333;
+    float: right;
+    -webkit-transition-delay: 0.2s;
+    -moz-transition-delay: 0.2s;
+    -o-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rdcaptoin30 .rdcaptoin a:hover {
+    border: 1px solid #adadad;
+}
+
+.rdcaptoin30:hover .rdcaptoin p,
+.rdcaptoin30:hover .rdcaptoin a,
+.rdcaptoin30:hover .rdcaptoin h3 {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+
+.rdcaptoin30:hover .rdcaptoin {
+    visibility: visible;
+    opacity: 1;
+}
+
+.rdcaptoin31 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.rdcaptoin31 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin31 .rdcaptoin {
+    background: rgba(51, 51, 51, 0.5);
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin31 .rdcaptoin h3 {
+    padding: 10px 15px;
+    width: 100%;
+    background: #333;
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.rdcaptoin31 .rdcaptoin p {
+    padding: 0 15px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #fff;
+    text-indent: 10px;
+}
+
+.rdcaptoin31 .rdcaptoin a {
+    margin-right: 15px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #333;
+    float: right;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rdcaptoin31 .rdcaptoin a:hover {
+    border: 1px solid #adadad;
+}
+
+.rdcaptoin31:hover img {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.rdcaptoin31:hover .rdcaptoin {
+    visibility: visible;
+    opacity: 1;
+}
+
+.rdcaptoin32 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.rdcaptoin32 img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin32 .rdcaptoin {
+    background: rgba(51, 51, 51, 0.5);
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rdcaptoin32 .rdcaptoin h3 {
+    padding: 10px 15px;
+    width: 100%;
+    background: #333;
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.rdcaptoin32 .rdcaptoin p {
+    padding: 0 15px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #fff;
+    text-indent: 10px;
+}
+
+.rdcaptoin32 .rdcaptoin a {
+    margin-right: 15px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #333;
+    float: right;
+    font-size: 13px;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rdcaptoin32 .rdcaptoin a:hover {
+    background: #e6e6e6;
+    border: 1px solid #adadad;
+}
+
+.rdcaptoin32:hover img {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+
+.rdcaptoin32:hover .rdcaptoin {
+    visibility: visible;
+    opacity: 1;
+}
+
+.dlt {
+    padding: none
+}
