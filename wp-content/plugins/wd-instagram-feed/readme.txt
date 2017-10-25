@@ -4,7 +4,7 @@ Donate link: https://web-dorado.com/products/wordpress-instagram-feed-wd.html
 Tags: custom instagram feed, feed, instagram, hashtag, Instagram feed, instagram gallery, instagram posts, Instagram images, Instagram photos, lightbox, photos,instagram account
 Requires at least: 3.9
 Tested up to: 4.8
-Stable tag: 1.2.7
+Stable tag: 1.2.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -109,6 +109,9 @@ After downloading the ZIP file of the Instagram Feed WD plugin,
 5.  WordPress Instagram Feed WD - Theme Settings   
 
 == Changelog ==
+
+= 1.2.8 =
+Changed: Allow more users and hashtags in feed settings  
 
 = 1.2.7 =
 Changed: Show notification to install Backup WD plugin only on plugin pages  

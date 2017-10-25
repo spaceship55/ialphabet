@@ -1,3 +1,6 @@
+= 1.2.8 =
+Changed: Allow more users and hashtags in feed settings
+
 = 1.2.7 =
 Changed: Show notification to install Backup WD plugin only on plugin pages
 

@@ -898,3 +898,58 @@ object {
 	
 .homepage-quote{display:none;}
 }
+
+
+/*Newsletter button */
+
+
+.home .newsletter-button { display: none; }
+.home .middle-page { display: block; }
+
+.newsletter-button{
+border-radius: 50%; 
+width: 100px; 
+height: 100px; 
+background-color: #2E6196;
+margin-bottom: 10px;
+}
+
+.newsletter-button:hover {
+background-color:red;
+}
+
+.newsletterLabel, .newsletterLabel a{
+color:#fff;
+text-align: center;
+line-height: 1.5em;
+padding-top:1em;
+font-weight: bold;
+
+}
+
+.newsletterLabel:hover a{
+	color:#fff !important;
+	text-decoration: none;
+}
+
+
+.signup-button:hover{
+	background-color: red !important;
+	color:#fff;
+	font-weight: bold;
+
+}
+
+/*Footer Adjustment with Newsletter logo*/
+@media only screen and (max-width: 400px) {
+.footer-text{
+	width: 100% !important;
+}
+
+.footer-logo{
+	width:50% !important;
+}
+
+/*Hide Newsletter button in homepage footer*/
+/*.home .newsletter-button { display: none !important; }*/
+

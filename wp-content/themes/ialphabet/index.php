@@ -98,6 +98,15 @@ get_header(); ?>
 			endif;
 			?>
 			</div>
+
+			<div class="col-lg-6">
+				<div class="newsletter-button middle-page">
+				<div class="newsletterLabel">
+				<a href="#boxzilla-393">Stay INFORMED! Newsletter</a></div>
+				</div>
+			</div>
+
+
 	  	  <h2>Instagram #iAlphabet</h2>
   	  	  <div>
   	  	  	<?php echo do_shortcode("[grace id='1']"); ?>
