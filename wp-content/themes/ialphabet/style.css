@@ -900,11 +900,11 @@ object {
 }
 
 
+
 /*Newsletter button */
 
-
 .home .newsletter-button { display: none; }
-.home .middle-page { display: block; }
+.home .middle-page { display: block; margin:auto; text-align: center;}
 
 .newsletter-button{
 border-radius: 50%; 
@@ -922,7 +922,7 @@ background-color:red;
 color:#fff;
 text-align: center;
 line-height: 1.5em;
-padding-top:1em;
+padding-top:0.5em;
 font-weight: bold;
 
 }
@@ -948,8 +948,45 @@ font-weight: bold;
 
 .footer-logo{
 	width:50% !important;
+	}
 }
 
-/*Hide Newsletter button in homepage footer*/
-/*.home .newsletter-button { display: none !important; }*/
 
+
+/*5 Cultural question buttons*/
+.question-button{
+border-radius: 50%; 
+width: 155px; 
+height: 155px; 
+margin-bottom: 10px;
+}
+
+.questionLabel, .questionLabel a{
+color:#fff;
+text-align: center;
+line-height: 1.5em;
+padding-top:1.5em;
+font-weight: 300;
+text-decoration: none;
+}
+
+.questionLabel:hover a{
+	/*color:#fff ;*/
+	text-decoration: none;
+}
+
+.blue-button{
+	background-color: #2E6196;
+}
+.red-button{
+	background-color: #DD1E27;
+}
+.yellow-button{
+	background-color: #F5BC1E;
+}
+
+@media only screen and (max-width: 400px) {
+.button-left{
+	padding-left: 0 !important;
+	}
+}

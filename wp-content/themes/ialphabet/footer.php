@@ -33,7 +33,7 @@
 			<div class ="col-xs-5 col-sm-3 col-md-2 ">
 
 				<div class="newsletter-button"><div class="newsletterLabel">
-				<a href="#boxzilla-393">Stay INFORMED! Newsletter</a></div>
+				<a href="#boxzilla-393">Stay INFORMED! Newsletter Sign-Up</a></div>
 				</div>
 				<!-- boxzilla 415 in live site -->
 			

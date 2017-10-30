@@ -16,10 +16,10 @@ get_header(); ?>
 
 		<div class="container">
 			<div class="row">
-				<p class="homepage-quote" style="background:rgba(0,0,0,0.6); color:#fff; font-style: italic; font-size:1em; max-width:350px; position:absolute; padding:10px; margin:30px 0 0 20px;">
+				<!-- <p class="homepage-quote" style="background:rgba(0,0,0,0.6); color:#fff; font-style: italic; font-size:1em; max-width:350px; position:absolute; padding:10px; margin:30px 0 0 20px;">
 				Remember, remember always, that all of us, and you and I especially, are descended from immigrants and revolutionists.
 				- Franklin D. Roosevelt
-				</p>	
+				</p> -->	
 				<img src="/ialphabet/wp-content/themes/ialphabet/img/HomePagePhoto-1235x463.jpg"/>
 			</div>
 			
@@ -29,6 +29,15 @@ get_header(); ?>
 				<b>Northeast High School</b> students exploring their immigrant experiences, with a series of free participatory events from September through December 2017 in Philadelphia.
 				</p>	
 			</div>
+
+			<div class="col-lg-6">
+				<div class="newsletter-button middle-page">
+				<div class="newsletterLabel">
+				<a href="#boxzilla-393">Stay INFORMED! Newsletter Sign-Up</a></div>
+				</div>
+			</div>
+			<br>
+
 
 			<div class="row" style="border-top:1px solid #ccc;">
 			<br>
@@ -99,12 +108,7 @@ get_header(); ?>
 			?>
 			</div>
 
-			<div class="col-lg-6">
-				<div class="newsletter-button middle-page">
-				<div class="newsletterLabel">
-				<a href="#boxzilla-393">Stay INFORMED! Newsletter</a></div>
-				</div>
-			</div>
+
 
 
 	  	  <h2>Instagram #iAlphabet</h2>
