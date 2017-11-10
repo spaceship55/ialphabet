@@ -194,3 +194,10 @@ function custom_excerpt_length( $length ) {
 	return 10;
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
+
+/*Adding required feature to email input fields*/
+function requireEmail_scripts() {
+    wp_enqueue_script( 'my-script', get_stylesheet_directory_uri() . '/js/requireEmail.js', array(), true );
+}
+add_action( 'wp_enqueue_scripts', 'requireEmail_scripts' );

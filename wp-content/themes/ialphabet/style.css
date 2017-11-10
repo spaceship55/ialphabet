@@ -902,7 +902,6 @@ object {
 
 
 /*Newsletter button */
-
 .home .newsletter-button { display: none; }
 .home .middle-page { display: block; margin:auto; text-align: center;}
 
@@ -939,6 +938,36 @@ font-weight: bold;
 	font-weight: bold;
 
 }
+
+/*Participate Button*/
+.participate-button{
+border-radius: 50%; 
+width: 100px; 
+height: 100px; 
+background-color: red;
+margin-bottom: 10px;
+}
+
+.participate-button:hover {
+background-color:#F5BC1E;
+}
+
+.participateLabel, .participateLabel a{
+color:#fff;
+text-align: center;
+line-height: 1.5em;
+padding-top:1.2em;
+font-weight: bold;
+
+}
+
+.participateLabel:hover a{
+	color:#fff !important;
+	text-decoration: none;
+}
+
+
+
 
 /*Footer Adjustment with Newsletter logo*/
 @media only screen and (max-width: 400px) {
@@ -985,8 +1014,59 @@ text-decoration: none;
 	background-color: #F5BC1E;
 }
 
-@media only screen and (max-width: 400px) {
+#amznCharityBanner{
+    float: right;
+    transform: scale(0.6,0.6);
+}
+
+@media screen and (max-width: 400px) {
 .button-left{
 	padding-left: 0 !important;
 	}
+#amznCharityBanner{
+	transform: scale(0.8,0.8) !important;
+	}
 }
+
+
+/*Site Reviews  to hide stars*/
+.glsr-field > label{
+	display: none !important;
+}
+
+.gl-star-rating{
+	display: none !important;
+}
+
+.glsr-form-messages{
+color:#337ab7;
+}
+
+.glsr-field input[type="text"]{
+	width: 100%;
+}
+
+.glsr-field input[type="email"]{
+	width:100%;
+} 
+.glsr-field textarea{
+	width: 100%;
+}
+
+div.mlw_qmn_quiz{
+	line-height:2em !important;
+}
+
+div.quiz_section input[type="text"]{
+	display:block;
+}
+
+.mlw_qmn_question{
+	display:block;
+}
+
+/*facts bottom card*/
+.facts-bottom-card{
+	margin:2em;
+}
+

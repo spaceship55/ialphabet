@@ -30,11 +30,21 @@ get_header(); ?>
 				</p>	
 			</div>
 
-			<div class="col-lg-6">
+			<div class="row">
+
+			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+				<div class="participate-button middle-page">
+				<div class="participateLabel">
+				<a href="#boxzilla-393">Participate with your own answers</a></div>
+				</div>
+			</div>
+
+			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
 				<div class="newsletter-button middle-page">
 				<div class="newsletterLabel">
 				<a href="#boxzilla-393">Stay INFORMED! Newsletter Sign-Up</a></div>
 				</div>
+			</div>
 			</div>
 			<br>
 
